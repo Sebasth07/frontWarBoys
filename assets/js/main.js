@@ -16,8 +16,8 @@
 	let shape13 = document.getElementById('shape13');
 	let shape14 = document.getElementById('shape14');
 	let shape15 = document.getElementById('shape15');
-	let war1 = document.getElementById('war1');
-	let war2 = document.getElementById('war2');
+	let humo = document.getElementById('humo');
+
 
 
 window.addEventListener('scroll', function() {
@@ -33,8 +33,8 @@ window.addEventListener('scroll', function() {
 	shape8.style.left = value * + 0.5 + 'px';
 	shape9.style.left = value * - 0.5 + 'px';
 	shape12.style.left = value * - 1 + 'px';
-	war2.style.right = value * + 0.1 + 'px';
-	war1.style.right = value * - 0.1 + 'px';
+	humo.style.top = value * - 0.3 + 'px';
 
+ 	
 
 })
