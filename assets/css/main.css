@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Rubik+Mono+One&family=Sintony&display=swap');
+
+:root {
+  --font-bold: 'Rubik Mono One', sans-serif;
+  --font-text: 'Sintony', sans-serif;
+  --font-cursive: 'Rock Salt', cursive;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	font-family: var(--font-text);
+}
+
+header{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background-image: radial-gradient(circle at 37.72% 119.64%, #e1ffa2 0, #e5f792 8.33%, #e9ec81 16.67%, #ece070 25%, #eed35f 33.33%, #f1c54d 41.67%, #f2b53c 50%, #f3a42d 58.33%, #f59422 66.67%, #f8831d 75%, #fa711f 83.33%, #fd5f25 91.67%, #ff4b2e 100%);
+  overflow: hidden;
+}
+.font-13{
+  font-size: 13px;
+}
+.font-10{
+  font-size: 10px;
+}
+.link-menu{
+  font-family: var(--font-text);
+  color: white !important;
+}
+.link-log{
+      background: #ff0000;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 2px solid;
+    width: 130px;
+    text-align: center;
+    font-family: var(--font-bold);
+    box-shadow: 6px 6px 8px darkred;
+
+}
+.arrows{
+  width: 55px;
+    z-index: 13;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -78%;
+    right: 0;
+    margin: auto;
+    z-index: 10;
+}
+.light-bg{
+	background: #84202982;
+}
+.shape-0{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 11;
+}
+.shape-1{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+.shape-2{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 9;
+}
+.shape-3{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 8;
+}
+.shape-4{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 7;
+}
+.shape-5{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 6;
+}
+.shape-6{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+}
+.shape-7{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 4;
+}
+.shape-8{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 991px){
+  .shape-8{
+    position: absolute;
+      width: 100%;
+      top: 0px;
+      z-index: 2;
+  } 
+}
+
+.shape-9{
+	position: absolute;
+    width: 100%;
+    bottom: -25px;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 991px){
+  .shape-9{
+    position: absolute;
+      width: 150%;
+      top: 0;
+      z-index: 2;
+  } 
+}
+
+.shape-10{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 991px){
+  .shape-10{
+    position: absolute;
+      width: 100%;
+      top: 0;
+      z-index: 2;
+  } 
+}
+
+.zindex-12{
+	z-index:12 ;
+}
+.logo{
+  width: 60%;
+    position: absolute;
+    z-index: 11;
+    left: 0px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+.game{
+  height: 100vh;
+  width: 100%;
+  background: #6f1c00;
+  position: relative;
+  overflow: hidden;
+}
+#bg{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.warrior1{
+  position: absolute;
+    z-index: 3;
+    height: 120%;
+    top: 0;
+    left: 100px !important;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.warrior2{
+  position: absolute;
+    z-index: 3;
+    height: 120%;
+    top: 0;
+    left: -50px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.mockup{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.shape11{
+  width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+.shape12{
+  width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+}
+.shape13{
+  width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.shape14{
+  width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+}
+.shape15{
+  width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.shape-logo{
+  width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 8;
+}
+.texto-uno{
+  z-index: 5;
+    position: absolute;
+    display: flex;
+    height: 300px;
+    background: orange;
+    width: 80%;
+    bottom: -184px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    border: 4px solid #4f0c00;
+    border-radius: 14px;
+    padding: 55px 20px;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 14px #4f0c00;
+    flex-direction: column;
+}
+.vh75{
+  height: 65vh;
+}
+.text-block{
+    font-family: 'Rubik Mono One';
+}
+.color-brown{
+  color: #4f0c00 !important;
+}
+.start{
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(circle at 37.72% 119.64%, #e1ffa2 0, #e5f792 8.33%, #e9ec81 16.67%, #ece070 25%, #eed35f 33.33%, #f1c54d 41.67%, #f2b53c 50%, #f3a42d 58.33%, #f59422 66.67%, #f8831d 75%, #fa711f 83.33%, #fd5f25 91.67%, #ff4b2e 100%);
+  
+}
