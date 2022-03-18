@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: 0;
+	box-sizing: border-box;
 	font-family: var(--font-text);
 }
 
@@ -29,6 +29,35 @@ header{
 	position: relative;
 	background-image: radial-gradient(circle at 37.72% 119.64%, #e1ffa2 0, #e5f792 8.33%, #e9ec81 16.67%, #ece070 25%, #eed35f 33.33%, #f1c54d 41.67%, #f2b53c 50%, #f3a42d 58.33%, #f59422 66.67%, #f8831d 75%, #fa711f 83.33%, #fd5f25 91.67%, #ff4b2e 100%);
   overflow: hidden;
+}
+footer{
+      background: #53172d;
+    width: 100%;
+    height: auto;
+}
+.preload{
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  position: fixed !important;
+  background-image: radial-gradient(circle at 37.72% 119.64%, #e1ffa2 0, #e5f792 8.33%, #e9ec81 16.67%, #ece070 25%, #eed35f 33.33%, #f1c54d 41.67%, #f2b53c 50%, #f3a42d 58.33%, #f59422 66.67%, #f8831d 75%, #fa711f 83.33%, #fd5f25 91.67%, #ff4b2e 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 99;
+  flex-direction: column;
+}
+.text-preload{
+  font-family: 'Rubik Mono One';
+  color: #4f0c00;
+}
+.d-flex-op{
+  display: flex!important;
+    align-items: center;
+    height: auto;
+    width: auto;
 }
 .p-relative{
   position: relative;
@@ -532,6 +561,11 @@ header{
     position: relative;
     overflow: hidden;
 }
+@media only screen and (max-width: 767px){
+  .tokenomics{
+    height: 100%;
+  }
+}
 
 #chartdiv {
   width: 100%;
@@ -584,10 +618,15 @@ g rect{
   z-index: 5;
 }
 .team{
-  background: #520d00;
-  width: 100%;
-  height: 400px;
-  padding: 50px 0px;
+      background: #1b011f;
+    width: 100%;
+    height: 500px;
+    padding: 50px 0px;
+}
+@media only screen and (max-width: 767px){
+  .team{
+    height: 100%;
+  }
 }
 .card-f{
   height: 300px;
@@ -597,7 +636,7 @@ g rect{
     margin: auto;
     border-radius: 30px;
     border: 2px solid #460b00;
-    box-shadow: 5px 5px 10px #460b00;
+    box-shadow: 0px 0px 14px #ff005d69;
 }
 .text-padding{
   padding: 30px;
@@ -608,5 +647,25 @@ g rect{
     width: 100%;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.text-team{
+  font-size: 18px;
+    text-align: center;
+    color: #53172d !important;
+}
+.footer1{
+      display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.footer2{
+      text-align: center;
+    margin: auto;
+}
+.footer3{
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Graficas JS en 3d *//////

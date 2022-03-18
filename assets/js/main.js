@@ -1,3 +1,7 @@
+window.onload = function () {
+	$('#onload').fadeOut();
+}
+
 // Parallax de los elementos
 	
 	let logo = document.getElementById('logo');

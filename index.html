@@ -8,6 +8,13 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
+	<div class="preload" id="onload">
+		<img style="width:40%;" src="assets/img/logos/logo-preload.svg">
+		<div class="d-flex-op">
+			<img src="assets/img/logos/844.gif">
+			<h5 class="text-preload">Cargando...</h5>
+		</div>
+	</div>
 <header>
 	<nav class="navbar fixed-top navbar-expand-lg navbar-light light-bg zindex-12">
 	  <div class="container-fluid">
@@ -18,22 +25,19 @@
 	    <div class="collapse navbar-collapse" id="navbarText">
 	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 	        <li class="nav-item">
-	          <a class="nav-link active link-menu" aria-current="page" href="#">Home</a>
+	          <a class="nav-link active link-menu" aria-current="page" href="#">Inicio</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link link-menu" href="#">Game</a>
+	          <a class="nav-link link-menu" href="#game">Juego</a>
 	        </li>
 	         <li class="nav-item">
-	          <a class="nav-link link-menu" aria-current="page" href="#">$LITHIO</a>
+	          <a class="nav-link link-menu" aria-current="page" href="#game2">Características</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link link-menu" href="#">Equipo</a>
+	          <a class="nav-link link-menu" href="#tokenomics">Tokenomics</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link link-menu" href="#">RoadMap</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link link-menu" href="#">Marketplace</a>
+	          <a class="nav-link link-menu" href="#team">Team</a>
 	        </li>
 	      </ul>
 	      <span class="navbar-text">
@@ -61,7 +65,7 @@
 			<!--  -->	
 		
 </header>
-<section class="game">
+<section class="game" id="game">
 	<img src="assets/img/shapes/11.svg" class="shape11" id="shape11">
 	<img src="assets/img/shapes/12.svg" class="shape12" id="shape12">
 	<img src="assets/img/shapes/13.svg" class="shape13" id="shape13">
@@ -133,7 +137,7 @@
 		
 	</div>
 </section>
-<section class="game2">
+<section class="game2" id="game2">
 	<img class="muro-cota" src="assets/img/start/muro.svg">
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 	  <div class="carousel-inner">
@@ -415,13 +419,13 @@
 	</div>
 </section>
 
-<section class="tokenomics">
+<section class="tokenomics" id="tokenomics">
 	<h1 class="muro-titles">TOKENOMICS</h1>
 		<div class="row graphic-up">
 			<div class="col-lg-8 col-md-12 col-sm-12">
 				<div id="chartdiv"></div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 token">
+			<div class="col-lg-4 col-md-12 col-sm-12 token">
 				<p>El $LITHIO es la moneda de Warboyw. Permite a los poseedores de tokens jugar, invertir y también ser parte de Warboys. Nuestra distribución de tokens esta pensada y planificada al detalle, siendo un juego nft el cual ningún miembro del equipo obtiene ni un solo token.</p>
 				<p>En caso que haya excedente de tokens en Marketing, Airdrop se enviara a la wallet de reservas.
 Las reservas serán utilizadas para agregar a liquidez, recompensas, acciones estrategicas o marketing en caso de ser necesario.</p>
@@ -433,37 +437,69 @@ Las reservas serán utilizadas para agregar a liquidez, recompensas, acciones es
 		<img class="part3" src="assets/img/tokenomics/fuego.svg">
 		<img class="part4" src="assets/img/tokenomics/suelo.svg">
 </section>
-<section class="team">
+<section class="team" id="team">
 	<div class="container">
+		<h1 class="muro-titles">TEAM</h1>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<div class="card-f">
 					<div class="text-padding">
 						<div class="flex-onp">
-							<img src="assets/img/">
+							<img style="width:50%;" src="assets/img/users/avatar1.svg">
+							<h4 class="text-team mt-2 text-white">Sergio Vasquez</h4>
+							<h5 class="muro-titles">CEO</h5>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<div class="card-f">
-					Hola Mundo
+					<div class="text-padding">
+						<div class="flex-onp">
+							<img style="width:50%;" src="assets/img/users/avatar2.svg">
+							<h4 class="text-team mt-2 text-white">Sergio Vasquez</h4>
+							<h5 class="muro-titles">CEO</h5>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<div class="card-f">
-					Hola Mundo
+					<div class="text-padding">
+						<div class="flex-onp">
+							<img style="width:50%;" src="assets/img/users/avatar3.svg">
+							<h4 class="text-team mt-2 text-white">Sergio Vasquez</h4>
+							<h5 class="muro-titles">CEO</h5>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 <!-- Chart code -->
-
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 footer1">
+				<img style="width:200px;" src="assets/img/logos/logo-white.svg">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12" style="display: flex;
+    align-items: center;">
+				<p class="text-white footer2">2022 Copyright ©. Todos los derechos reservados.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 footer3">
+				<img style="width:200px;" src="assets/img/logos/bsc.svg">
+			</div>
+		</div>
+	</div>
+</footer>
 </script>
+
 <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+<script src="assets/js/jquery3.6.0.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script>
